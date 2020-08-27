@@ -16,7 +16,7 @@ class ViewController: UIViewController {
 	}
 	@IBOutlet weak var imageView2: UIImageView! {
 		didSet {
-			self.imageView2.image = .svg(.starHalf, size: CGSize(width: 100, height: 100), color: .blue)
+			self.imageView2.image = .svg(.mac, size: CGSize(width: 100, height: 100))
 		}
 	}
 	@IBOutlet weak var imageView3: UIImageView! {

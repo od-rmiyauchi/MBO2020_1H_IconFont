@@ -9,8 +9,11 @@
 import Foundation
 
 enum SvgName: String {
-	// common star
+	// common
+	// star
 	case star = "star"
 	case starHalf = "star_half"
 	case starBorder = "star_border"
+	// mac
+	case mac = "mac"
 }
