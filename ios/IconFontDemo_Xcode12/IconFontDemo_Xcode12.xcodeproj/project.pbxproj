@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF6D63A24F7CFD80054409E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D63924F7CFD80054409E /* AppDelegate.swift */; };
+		BAF6D63C24F7CFD80054409E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D63B24F7CFD80054409E /* SceneDelegate.swift */; };
+		BAF6D63E24F7CFD80054409E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D63D24F7CFD80054409E /* ViewController.swift */; };
+		BAF6D64124F7CFD80054409E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF6D63F24F7CFD80054409E /* Main.storyboard */; };
+		BAF6D64324F7CFD90054409E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF6D64224F7CFD90054409E /* Assets.xcassets */; };
+		BAF6D64624F7CFD90054409E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF6D64424F7CFD90054409E /* LaunchScreen.storyboard */; };
+		BAF6D65124F7CFD90054409E /* IconFontDemo_Xcode12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D65024F7CFD90054409E /* IconFontDemo_Xcode12Tests.swift */; };
+		BAF6D65C24F7CFD90054409E /* IconFontDemo_Xcode12UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF6D65B24F7CFD90054409E /* IconFontDemo_Xcode12UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAF6D64D24F7CFD90054409E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF6D62E24F7CFD80054409E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF6D63524F7CFD80054409E;
+			remoteInfo = IconFontDemo_Xcode12;
+		};
+		BAF6D65824F7CFD90054409E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF6D62E24F7CFD80054409E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF6D63524F7CFD80054409E;
+			remoteInfo = IconFontDemo_Xcode12;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAF6D63624F7CFD80054409E /* IconFontDemo_Xcode12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontDemo_Xcode12.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF6D63924F7CFD80054409E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAF6D63B24F7CFD80054409E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAF6D63D24F7CFD80054409E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAF6D64024F7CFD80054409E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAF6D64224F7CFD90054409E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAF6D64524F7CFD90054409E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAF6D64724F7CFD90054409E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF6D64C24F7CFD90054409E /* IconFontDemo_Xcode12Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconFontDemo_Xcode12Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF6D65024F7CFD90054409E /* IconFontDemo_Xcode12Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontDemo_Xcode12Tests.swift; sourceTree = "<group>"; };
+		BAF6D65224F7CFD90054409E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF6D65724F7CFD90054409E /* IconFontDemo_Xcode12UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconFontDemo_Xcode12UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF6D65B24F7CFD90054409E /* IconFontDemo_Xcode12UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconFontDemo_Xcode12UITests.swift; sourceTree = "<group>"; };
+		BAF6D65D24F7CFD90054409E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF6D63324F7CFD80054409E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF6D64924F7CFD90054409E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF6D65424F7CFD90054409E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF6D62D24F7CFD80054409E = {
+			isa = PBXGroup;
+			children = (
+				BAF6D63824F7CFD80054409E /* IconFontDemo_Xcode12 */,
+				BAF6D64F24F7CFD90054409E /* IconFontDemo_Xcode12Tests */,
+				BAF6D65A24F7CFD90054409E /* IconFontDemo_Xcode12UITests */,
+				BAF6D63724F7CFD80054409E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF6D63724F7CFD80054409E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF6D63624F7CFD80054409E /* IconFontDemo_Xcode12.app */,
+				BAF6D64C24F7CFD90054409E /* IconFontDemo_Xcode12Tests.xctest */,
+				BAF6D65724F7CFD90054409E /* IconFontDemo_Xcode12UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF6D63824F7CFD80054409E /* IconFontDemo_Xcode12 */ = {
+			isa = PBXGroup;
+			children = (
+				BAF6D66A24F7D0010054409E /* View */,
+				BAF6D66924F7CFF40054409E /* Resources */,
+				BAF6D63924F7CFD80054409E /* AppDelegate.swift */,
+				BAF6D63B24F7CFD80054409E /* SceneDelegate.swift */,
+				BAF6D64724F7CFD90054409E /* Info.plist */,
+			);
+			path = IconFontDemo_Xcode12;
+			sourceTree = "<group>";
+		};
+		BAF6D64F24F7CFD90054409E /* IconFontDemo_Xcode12Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF6D65024F7CFD90054409E /* IconFontDemo_Xcode12Tests.swift */,
+				BAF6D65224F7CFD90054409E /* Info.plist */,
+			);
+			path = IconFontDemo_Xcode12Tests;
+			sourceTree = "<group>";
+		};
+		BAF6D65A24F7CFD90054409E /* IconFontDemo_Xcode12UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF6D65B24F7CFD90054409E /* IconFontDemo_Xcode12UITests.swift */,
+				BAF6D65D24F7CFD90054409E /* Info.plist */,
+			);
+			path = IconFontDemo_Xcode12UITests;
+			sourceTree = "<group>";
+		};
+		BAF6D66924F7CFF40054409E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAF6D64224F7CFD90054409E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BAF6D66A24F7D0010054409E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAF6D63D24F7CFD80054409E /* ViewController.swift */,
+				BAF6D63F24F7CFD80054409E /* Main.storyboard */,
+				BAF6D64424F7CFD90054409E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF6D63524F7CFD80054409E /* IconFontDemo_Xcode12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF6D66024F7CFD90054409E /* Build configuration list for PBXNativeTarget "IconFontDemo_Xcode12" */;
+			buildPhases = (
+				BAF6D63224F7CFD80054409E /* Sources */,
+				BAF6D63324F7CFD80054409E /* Frameworks */,
+				BAF6D63424F7CFD80054409E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconFontDemo_Xcode12;
+			productName = IconFontDemo_Xcode12;
+			productReference = BAF6D63624F7CFD80054409E /* IconFontDemo_Xcode12.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAF6D64B24F7CFD90054409E /* IconFontDemo_Xcode12Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF6D66324F7CFD90054409E /* Build configuration list for PBXNativeTarget "IconFontDemo_Xcode12Tests" */;
+			buildPhases = (
+				BAF6D64824F7CFD90054409E /* Sources */,
+				BAF6D64924F7CFD90054409E /* Frameworks */,
+				BAF6D64A24F7CFD90054409E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF6D64E24F7CFD90054409E /* PBXTargetDependency */,
+			);
+			name = IconFontDemo_Xcode12Tests;
+			productName = IconFontDemo_Xcode12Tests;
+			productReference = BAF6D64C24F7CFD90054409E /* IconFontDemo_Xcode12Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAF6D65624F7CFD90054409E /* IconFontDemo_Xcode12UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF6D66624F7CFD90054409E /* Build configuration list for PBXNativeTarget "IconFontDemo_Xcode12UITests" */;
+			buildPhases = (
+				BAF6D65324F7CFD90054409E /* Sources */,
+				BAF6D65424F7CFD90054409E /* Frameworks */,
+				BAF6D65524F7CFD90054409E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF6D65924F7CFD90054409E /* PBXTargetDependency */,
+			);
+			name = IconFontDemo_Xcode12UITests;
+			productName = IconFontDemo_Xcode12UITests;
+			productReference = BAF6D65724F7CFD90054409E /* IconFontDemo_Xcode12UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF6D62E24F7CFD80054409E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BAF6D63524F7CFD80054409E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					BAF6D64B24F7CFD90054409E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = BAF6D63524F7CFD80054409E;
+					};
+					BAF6D65624F7CFD90054409E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = BAF6D63524F7CFD80054409E;
+					};
+				};
+			};
+			buildConfigurationList = BAF6D63124F7CFD80054409E /* Build configuration list for PBXProject "IconFontDemo_Xcode12" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAF6D62D24F7CFD80054409E;
+			productRefGroup = BAF6D63724F7CFD80054409E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF6D63524F7CFD80054409E /* IconFontDemo_Xcode12 */,
+				BAF6D64B24F7CFD90054409E /* IconFontDemo_Xcode12Tests */,
+				BAF6D65624F7CFD90054409E /* IconFontDemo_Xcode12UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF6D63424F7CFD80054409E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF6D64624F7CFD90054409E /* LaunchScreen.storyboard in Resources */,
+				BAF6D64324F7CFD90054409E /* Assets.xcassets in Resources */,
+				BAF6D64124F7CFD80054409E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF6D64A24F7CFD90054409E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF6D65524F7CFD90054409E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF6D63224F7CFD80054409E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF6D63E24F7CFD80054409E /* ViewController.swift in Sources */,
+				BAF6D63A24F7CFD80054409E /* AppDelegate.swift in Sources */,
+				BAF6D63C24F7CFD80054409E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF6D64824F7CFD90054409E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF6D65124F7CFD90054409E /* IconFontDemo_Xcode12Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF6D65324F7CFD90054409E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF6D65C24F7CFD90054409E /* IconFontDemo_Xcode12UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAF6D64E24F7CFD90054409E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF6D63524F7CFD80054409E /* IconFontDemo_Xcode12 */;
+			targetProxy = BAF6D64D24F7CFD90054409E /* PBXContainerItemProxy */;
+		};
+		BAF6D65924F7CFD90054409E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF6D63524F7CFD80054409E /* IconFontDemo_Xcode12 */;
+			targetProxy = BAF6D65824F7CFD90054409E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAF6D63F24F7CFD80054409E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF6D64024F7CFD80054409E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF6D64424F7CFD90054409E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF6D64524F7CFD90054409E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF6D65E24F7CFD90054409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAF6D65F24F7CFD90054409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF6D66124F7CFD90054409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconFontDemo_Xcode12/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.IconFontDemo-Xcode12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAF6D66224F7CFD90054409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconFontDemo_Xcode12/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.IconFontDemo-Xcode12";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAF6D66424F7CFD90054409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconFontDemo_Xcode12Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.IconFontDemo-Xcode12Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconFontDemo_Xcode12.app/IconFontDemo_Xcode12";
+			};
+			name = Debug;
+		};
+		BAF6D66524F7CFD90054409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconFontDemo_Xcode12Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.IconFontDemo-Xcode12Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IconFontDemo_Xcode12.app/IconFontDemo_Xcode12";
+			};
+			name = Release;
+		};
+		BAF6D66724F7CFD90054409E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconFontDemo_Xcode12UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.IconFontDemo-Xcode12UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IconFontDemo_Xcode12;
+			};
+			name = Debug;
+		};
+		BAF6D66824F7CFD90054409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IconFontDemo_Xcode12UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.IconFontDemo-Xcode12UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IconFontDemo_Xcode12;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF6D63124F7CFD80054409E /* Build configuration list for PBXProject "IconFontDemo_Xcode12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF6D65E24F7CFD90054409E /* Debug */,
+				BAF6D65F24F7CFD90054409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF6D66024F7CFD90054409E /* Build configuration list for PBXNativeTarget "IconFontDemo_Xcode12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF6D66124F7CFD90054409E /* Debug */,
+				BAF6D66224F7CFD90054409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF6D66324F7CFD90054409E /* Build configuration list for PBXNativeTarget "IconFontDemo_Xcode12Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF6D66424F7CFD90054409E /* Debug */,
+				BAF6D66524F7CFD90054409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF6D66624F7CFD90054409E /* Build configuration list for PBXNativeTarget "IconFontDemo_Xcode12UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF6D66724F7CFD90054409E /* Debug */,
+				BAF6D66824F7CFD90054409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAF6D62E24F7CFD80054409E /* Project object */;
+}
