@@ -1,0 +1,6 @@
+framework module Pods_IconFontDemo_SVGKit {
+  umbrella header "Pods-IconFontDemo_SVGKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

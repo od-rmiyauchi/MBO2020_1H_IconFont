@@ -1,0 +1,22 @@
+PODS:
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - SVGKit
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - SVGKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+
+PODFILE CHECKSUM: 1668f1d5fe7c98aa97d09f76ffd13ae5cd35c9b1
+
+COCOAPODS: 1.8.4
