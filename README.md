@@ -84,6 +84,12 @@ self.imageView.image = UIImage(named: "star")
 self.imageView.image = UIImage(named: "star")?.withTintColor(.green)
 ```
 
+#### デモアプリ
+- プロジェクト  
+  ios/IconFontDemo_Xcode12
+- 概要  
+  2種類のSVGを画面上に表示します。
+  
 ## Android
 
 #### 概要
